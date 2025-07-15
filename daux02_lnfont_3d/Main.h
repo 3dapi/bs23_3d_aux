@@ -1,0 +1,39 @@
+// Interface for the CMain class.
+//
+////////////////////////////////////////////////////////////////////////////////
+
+#ifndef _MAIN_H_
+#define _MAIN_H_
+
+
+class CMain : public CD3DApplication
+{
+public:
+	CMcInput*		m_pInput;
+	CMcCamera*		m_pCam;
+
+protected:	
+	CMcScene*		m_pScene;
+	
+public:
+	CMain();
+	
+	virtual HRESULT Init();
+	virtual HRESULT Destroy();
+
+	virtual HRESULT Restore();
+	virtual HRESULT Invalidate();
+	
+	virtual HRESULT FrameMove();
+	virtual HRESULT Render();
+	
+	virtual LRESULT MsgProc(HWND, UINT, WPARAM, LPARAM);
+
+public:
+	LPD3DXSPRITE GetSprite()	{	return m_pd3dSprite;	}
+};
+
+extern CMain*	g_pApp;
+#define GMAIN	g_pApp
+
+#endif
