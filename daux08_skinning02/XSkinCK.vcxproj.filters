@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e3085f0a-6613-455c-bb52-401116d6b7f5}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{e1c18937-7484-43e9-b41e-5d4e41868325}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="LcXSkin">
+      <UniqueIdentifier>{cc298b9d-0ce6-4b98-8e80-1836e3371bbe}</UniqueIdentifier>
+      <Extensions>cpp;h;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{ed777a47-36bc-4f8a-b521-f7c21e9e04d7}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d3dapp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEnum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dxutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XSkinCK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LcXSkin\ILcMdl.cpp">
+      <Filter>LcXSkin</Filter>
+    </ClCompile>
+    <ClCompile Include="LcXSkin\LcXSkin.cpp">
+      <Filter>LcXSkin</Filter>
+    </ClCompile>
+    <ClCompile Include="LcXSkin\LcXSkinAlloc.cpp">
+      <Filter>LcXSkin</Filter>
+    </ClCompile>
+    <ClCompile Include="LcXSkin\LcXSkinIns.cpp">
+      <Filter>LcXSkin</Filter>
+    </ClCompile>
+    <ClCompile Include="LcXSkin\LcXSkinSrc.cpp">
+      <Filter>LcXSkin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="XSkinCK.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dapp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEnum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dsettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dxutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LcXSkin\ILcMdl.h">
+      <Filter>LcXSkin</Filter>
+    </ClInclude>
+    <ClInclude Include="LcXSkin\LcXSkin.h">
+      <Filter>LcXSkin</Filter>
+    </ClInclude>
+    <ClInclude Include="LcXSkin\LcXSkinAlloc.h">
+      <Filter>LcXSkin</Filter>
+    </ClInclude>
+    <ClInclude Include="LcXSkin\LcXSkinIns.h">
+      <Filter>LcXSkin</Filter>
+    </ClInclude>
+    <ClInclude Include="LcXSkin\LcXSkinSrc.h">
+      <Filter>LcXSkin</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

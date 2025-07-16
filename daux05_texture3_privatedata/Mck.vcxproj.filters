@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{73fe18ff-be6a-4989-93df-4eaa34818c2f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f1bdb3ee-2229-447a-b8d4-c8c3ef9dcacc}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="D3D">
+      <UniqueIdentifier>{b80a4f8d-a6f7-4e09-b7bf-338e2af10ff0}</UniqueIdentifier>
+      <Extensions>cpp;h;</Extensions>
+    </Filter>
+    <Filter Include="LcUtil">
+      <UniqueIdentifier>{5945d9d4-fcfe-428c-8806-9ceedee23642}</UniqueIdentifier>
+      <Extensions>cpp;h;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{11287225-8d08-4251-ad88-343f66a27924}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LcDX\d3dapp.cpp">
+      <Filter>D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="LcDX\d3denum.cpp">
+      <Filter>D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="LcDX\d3dutil.cpp">
+      <Filter>D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="LcDX\dxutil.cpp">
+      <Filter>D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="LcUtil\LcUtil.cpp">
+      <Filter>LcUtil</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Mck.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LcDX\d3dapp.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="LcDX\d3denum.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="LcDX\d3dsettings.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="LcDX\d3dutil.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="LcDX\dxutil.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="LcUtil\LcUtil.h">
+      <Filter>LcUtil</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
